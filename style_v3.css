@@ -94,7 +94,7 @@ a:hover {
   background-color: #1f305e;
   color: #fff;
   padding: 10px 10px;
-  /*height: 550px;*/
+  height: 90%;
 }
 
 .profile-photo-container {
@@ -136,7 +136,7 @@ a:hover {
 }
 
 #about-me {
-  /* height: 450px; */
+  height: 80%;
   overflow-y: scroll;
   border: 1px solid #ccc;
   padding: 10px;
