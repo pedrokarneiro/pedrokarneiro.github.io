@@ -80,5 +80,24 @@
 	<script>
 	includeHTML();
 	</script>
+  <script>
+    window.onload = function() {
+      var windowHeight = window.innerHeight;
+      var tabContentHeight = windowHeight * 0.9;
+      var aboutMeHeight = windowHeight * 0.9;
+      document.querySelector('.tab-content').style.height = tabContentHeight + 'px';
+      document.querySelector('#about-me').style.height = aboutMeHeight + 'px';
+    }
+  </script>
+  <script>
+    window.addEventListener('resize', function() {
+      var windowHeight = window.innerHeight;
+      var tabContentHeight = windowHeight * 0.9;
+      var aboutMeHeight = windowHeight * 0.9;
+      document.querySelector('.tab-content').style.height = tabContentHeight + 'px';
+      document.querySelector('#about-me').style.height = aboutMeHeight + 'px';
+    });
+  </script>
+  
   </body>
 </html>
