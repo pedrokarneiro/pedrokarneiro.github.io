@@ -115,8 +115,8 @@ a:hover {
 /*Text container for the vertically limited text with a scorll bar on the right*/
 
 #projects-container {
-  height: 700px;
-  /*height: 80vh;*/
+  /*height: 700px;*/
+  height: 80vh;
   overflow-y: scroll;
   border: 1px solid #ccc;
   padding: 10px;
