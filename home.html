@@ -1,11 +1,28 @@
+<script>
+function openLightbox() {
+  // Show the lightbox
+  document.querySelector('.lightbox').style.display = 'block';
+}
+
+function closeLightbox() {
+  // Hide the lightbox
+  document.querySelector('.lightbox').style.display = 'none';
+}
+</script>
 <div id="home">
-	  <p style="text-align: left;">BI Developer and IT Public Executive - Leveraging Data to Drive Strategic Decision-Making and Improve Public Services</p>
+      <p style="text-align: left;">BI Developer and IT Public Executive - Leveraging Data to Drive Strategic Decision-Making and Improve Public Services</p>
+      <div class="lightbox">
+        <div class="lightbox-content">
+          <img src="profile_photo_2.jpg" alt="Profile Photo" width="400" height="300">
+          <div class="lightbox-close" onclick="closeLightbox()">x</div>
+        </div>
+      </div>
       <table border="0">
         <tr>
           <td>
           <div class="profile-photo-container">
-            <!-- <img src="https://imgs.search.brave.com/84l4MKNFRMb6Ydx5cXd-Um5rBuHe-JChSYRZC9my_x8/rs:fit:729:486:1/g:ce/aHR0cDovL3d3dy5o/ZHdhbGxwYXBlcnNw/dWxzZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMTAv/ZnVsbC13aGl0ZS1Q/dWctRG9nLUltYWdl/cy5qcGc" alt="Profile Photo" alt="Description of the image" width="500" height="300"> -->
-            <img src="profile_photo_2.jpg" alt="Profile Photo" alt="Description of the image" width="500" height="300">
+            <!-- <img src="profile_photo_2.jpg" alt="Profile Photo" width="500" height="300"> -->
+            <img src="profile_photo_2.jpg" alt="Profile Photo" onclick="openLightbox()" width="500" height="300">
           </div>
         </td>
         <td style="vertical-align: text-top;">
