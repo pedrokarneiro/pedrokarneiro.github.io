@@ -32,6 +32,34 @@
       <h2>Portfolio</h2>
 	  <div w3-include-html="projects_history.html"></div>
     </div>
+    <footer id="typing-footer"></footer>
+    <script>
+      const footer = document.getElementById('typing-footer');
+      var r_text = new Array ();
+      r_text[0] = "'Some dashboards can bring huge value to the organization. Corporate performance management systems or balanced score cards can be great ways to tie an organization’s performance to its goals. However, this means that the organization has to clearly identify its goals and agree to measure them. Most of the work to create these systems is organizational and political. If you start with the dashboard first, you are starting at the wrong end of the animal.' - Joy Mundy, Warren Thorntwaite, and Ralph Kimball (Microsoft Data Warehouse Toolkit).";
+      r_text[1] = "'Without a corporate set of numbers, we have a bunch of talented singers singing different songs. We have Aretha Franklin singing soul, the Eagles singing classic rock, the Thompson Twins singing grunge and Celine Dion singing pop. And in the background, we have Dave Brubeck doing jazz accompanied by the Steve Miller Band doing “Jet Airliner.”  The problem is that these artists are all doing it at once and it sounds just terrible. It is a bunch of noise coming from very talented singers. What we need is a little coordination among these talented artists. We need for them to be singing from the same songbook and from the same page in that songbook. And that’s what a data warehouse does. That is the best way to understand the value that a data warehouse provides an organization.' - Bill Inmon (Management by Spreadsheet / BeyeNETWORK.com)";
+      r_text[2] = "'Dimensional models should be designed in collaboration with subject matter experts and data governance representatives from the business.' - Kimball Group (Kimball Dimensional Modeling Techniques, (KimballGroup.com / Kimball University)";
+      r_text[3] = "'Some people call this artificial intelligence, but the reality is this technology will enhance us. So instead of artificial intelligence, I think we'll augment our intelligence.' - Ginni Rometty";
+      r_text[4] = "'Self-education is, I firmly believe, the only kind of education there is.' - Isaac Asimov";
+      r_text[5] = "'The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.' - Isaac Asimov";
+      r_text[6] = "'In the twenty-first century, the robot will take the place which slave labor occupied in ancient civilization.' - Nikola Tesla";
+      r_text[7] = "'The human being is a self-propelled automaton entirely under the control of external influences. Willful and predetermined though they appear, his actions are governed not from within, but from without. He is like a float tossed about by the waves of a turbulent sea.' - Nikola Tesla";
+      r_text[8] = "'Their idols are silver and gold, the work of men’s hands.' - Psalms 115:4";
+
+      var idx = Math.floor(9*Math.random())
+      text = r_text[idx];
+      let i = 0;
+
+      function typeText() {
+        if (i < text.length) {
+          footer.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typeText, Math.random() * 200);
+        }
+      }
+
+      typeText();
+    </script>
 
     <script>
       function openTab(tabName) {
