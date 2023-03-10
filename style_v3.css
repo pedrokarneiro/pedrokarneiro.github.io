@@ -165,3 +165,33 @@ a:hover {
 p, li {
   font-size: 20px;
 }
+
+/* Footer styles */
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-family: monospace;
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+footer::after {
+  content: '_';
+  animation: cursor-blink 0.7s infinite;
+  display: inline-block;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
