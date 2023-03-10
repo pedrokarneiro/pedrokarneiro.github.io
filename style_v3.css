@@ -95,6 +95,7 @@ a:hover {
   color: #fff;
   padding: 10px 10px;
   height: 90vh;
+  height: 700px;
 }
 
 .profile-photo-container {
@@ -115,7 +116,7 @@ a:hover {
 
 #projects-container {
   /*height: 450px;*/
-  height: 80%;
+  height: 80vh;
   overflow-y: scroll;
   border: 1px solid #ccc;
   padding: 10px;
@@ -127,7 +128,7 @@ a:hover {
 
 #contact-info {
   /*height: 450px;*/
-  height: 80%;
+  height: 80vh;
   /*overflow-y: scroll;*/
   border: 1px solid #ccc;
   padding: 10px;
@@ -139,7 +140,7 @@ a:hover {
 
 #about-me {
   /*height: 450px;*/
-  height: 80%;
+  height: 80vh;
   overflow-y: scroll;
   border: 1px solid #ccc;
   padding: 10px;
@@ -151,7 +152,7 @@ a:hover {
 
 #home {
   /*height: 450px;*/
-  height: 80%;
+  height: 80vh;
   /*overflow-y: scroll;*/
   border: 1px solid #ccc;
   padding: 10px;
