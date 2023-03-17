@@ -29,4 +29,14 @@ Negli anni '80 ho iniziato a programmare in BASIC con gli amici e ho avuto succe
 
 Dal 2007 lavoro per lo Stato di Goiás in Brasile come Dirigente Pubblico di IT, dove sono stato coinvolto in varie attività come l'ingegneria dei dati, la modellazione e lo scripting, l'amministrazione di database e lo sviluppo di Power BI. Ho anche contribuito al sistema di pianificazione dello Stato, ho implementato Scrum e ho gestito l'IT del dipartimento delle Città. Attualmente ho responsabilità presso il Dipartimento di Intelligence dell'Ufficio di revisione interna.
 
+<contact_info>
+
+Informazioni di contatto
+Se siete interessati al mio profilo o avete bisogno di consulenza nelle mie aree di specializzazione ed esperienza, non esitate a contattarmi.
+
+E-mail: pedrokarneiro.bsa@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/pedrocarneirojr/
+
+Instagram: @pedrokarneiro.bsa
 
