@@ -14,7 +14,7 @@ Gestione IT
 Pianificazione strategica
 
 <about>
-Sono un professionista brasiliano dei dati, IT Public Executive presso lo Stato di Goiás in Brasile, che attualmente occupa un ruolo responsabile dell'amministrazione del database, dell'automazione ETL e dello sviluppo di BI presso il Controller General (ufficio di controllo interno) dello Stato di Goiás.
+Sono un professionista brasiliano dei dati, IT Public Executive presso lo Stato di Goiás in Brasile, che attualmente occupa un ruolo responsabile dell'amministrazione del database, dell'automazione ETL e dello sviluppo di BI presso il Controllore Generale (ufficio di revisione interna) dello Stato di Goiás.
 
 Ho una solida esperienza in:
 
@@ -27,6 +27,6 @@ Dal punto di vista accademico, ho conseguito una laurea equivalente a un B.Tech 
 
 Negli anni '80 ho iniziato a programmare in BASIC con gli amici e ho avuto successo nella mia attività di tutoraggio. Negli anni '90 ho iniziato la mia carriera professionale come programmatore COBOL e Easytrieve, per poi passare a lavorare con Clipper/DBF, Visual Basic, Classic ASP e JavaScript. Negli anni 2000 ho avuto le mie prime esperienze internazionali e ho lavorato all'integrazione di Crystal Reports in Visual Basic e Classic ASP in un contesto di e-commerce B2B. Ho lavorato anche come sviluppatore di report in un software di alto livello per la gestione di portafogli e programmi, e come Project Manager e IT Manager nel settore zootecnico.
 
-Dal 2007 lavoro per lo Stato di Goiás in Brasile come IT Public Executive, dove sono stato coinvolto in varie attività come l'ingegneria dei dati, la modellazione e lo scripting, l'amministrazione di database e lo sviluppo di Power BI. Ho anche contribuito al sistema di pianificazione dello Stato, ho implementato Scrum e ho gestito l'IT del dipartimento delle Città. Attualmente ho responsabilità presso il Dipartimento di Intelligence dell'Ufficio di revisione interna.
+Dal 2007 lavoro per lo Stato di Goiás in Brasile come Dirigente Pubblico di IT, dove sono stato coinvolto in varie attività come l'ingegneria dei dati, la modellazione e lo scripting, l'amministrazione di database e lo sviluppo di Power BI. Ho anche contribuito al sistema di pianificazione dello Stato, ho implementato Scrum e ho gestito l'IT del dipartimento delle Città. Attualmente ho responsabilità presso il Dipartimento di Intelligence dell'Ufficio di revisione interna.
 
 
