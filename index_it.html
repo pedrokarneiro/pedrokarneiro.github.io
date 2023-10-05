@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Carneiro Junior</title>
+    <link rel="stylesheet" type="text/css" href="style_v3.css">
+  </head>
+  <body onload="div1.click();">
+    <div id="div1" class="tab" onclick="openTab('tab1')">Home</div>
+    <div id="div2" class="tab" onclick="openTab('tab2')">Informazioni</div>
+    <div id="div3" class="tab" onclick="openTab('tab3')">Contatti</div>
+    <div id="div4" class="tab" onclick="openTab('tab4')">Portfolio</div>
+    <div id="tab1" class="tab-content active">
+      <!-- Home -->
+      <h2 style="text-align: left;">Pedro Carneiro Junior</h2>
+      <div w3-include-html="home_it.html"></div>
+    </div>
+    <div id="tab2" class="tab-content" style="display: none">
+      <!-- About Me -->
+      <h2>Su di me</h2>
+      <div w3-include-html="about_me_it.html"></div>
+    </div>
+    <div id="tab3" class="tab-content" style="display: none">
+    <!-- Contact Info -->
+      <h2>Informazioni di contatto</h2>
+      <div w3-include-html="contact_info_it.html"></div>
+    </div>
+
+    <div id="tab4" class="tab-content" style="display: none">
+      <!-- History of IT Projects -->
+      <h2>Portfolio</h2>
+      <div w3-include-html="projects_history_it.html"></div>
+    </div>
+    <footer id="typing-footer"></footer>
+    <script>
+        const footer = document.getElementById('typing-footer');
+        var r_text = new Array ();
+        let i = 0;
+        initVars();
+
+        function initVars(){
+            r_text[0] = "'Alcuni dashboard possono apportare un enorme valore all'organizzazione. I sistemi di gestione delle prestazioni aziendali o le Balanced Score Card possono essere ottimi modi per collegare le prestazioni di un’organizzazione ai suoi obiettivi. Tuttavia, ciò significa che l’organizzazione deve identificare chiaramente i propri obiettivi e accettare di misurarli. La maggior parte del lavoro per creare questi sistemi è organizzativo e politico. Se inizi prima con il dashboard, stai iniziando dalla parte sbagliata dell'animale.' - Joy Mundy, Warren Thorntwaite, and Ralph Kimball (Microsoft Data Warehouse Toolkit).";
+            r_text[1] = "'Senza una serie di numeri aziendali, abbiamo un gruppo di cantanti di talento che cantano canzoni diverse. Abbiamo Aretha Franklin che canta soul, gli Eagles che cantano rock classico, i Thompson Twins che cantano grunge e Celine Dion che canta pop. E in sottofondo, abbiamo Dave Brubeck che suona jazz accompagnato dalla Steve Miller Band che suona “Jet Airliner”. Il problema è che questi artisti lo fanno tutti contemporaneamente e sembra semplicemente terribile. È un mucchio di rumore proveniente da cantanti di grande talento. Ciò di cui abbiamo bisogno è un po’ di coordinamento tra questi artisti di talento. Abbiamo bisogno che cantino dallo stesso libro dei cantici e dalla stessa pagina di quel libro dei cantici. Ed è ciò che fa un data warehouse. Questo è il modo migliore per comprendere il valore che un data warehouse offre a un'organizzazione.' - Bill Inmon (Management by Spreadsheet / BeyeNETWORK.com)";
+            r_text[2] = "'Dimensional models should be designed in collaboration with subject matter experts and data governance representatives from the business.' - Kimball Group (Kimball Dimensional Modeling Techniques, (KimballGroup.com / Kimball University)";
+            r_text[3] = "'Alcuni la chiamano intelligenza artificiale, ma la realtà è che questa tecnologia ci migliorerà. Quindi, invece dell'intelligenza artificiale, penso che aumenteremo la nostra intelligenza.' - Ginni Rometty";
+            r_text[4] = "'L’autoeducazione è, ne sono fermamente convinto, l’unico tipo di educazione che esista.' - Isaac Asimov";
+            r_text[5] = "'L’aspetto più triste della vita in questo momento è che la scienza accumula conoscenza più velocemente di quanto la società raccolga saggezza.' - Isaac Asimov";
+            r_text[6] = "'Nel ventunesimo secolo, i robot prenderanno il posto che il lavoro degli schiavi occupava nelle antiche civiltà.' - Nikola Tesla";
+            r_text[7] = "'L'essere umano è un automa semovente interamente sotto il controllo di influenze esterne. Per quanto ostinate e predeterminate appaiano, le sue azioni sono governate non dall'interno, ma dall'esterno. È come una nave sballottata dalle onde di un mare turbolento.' - Nikola Tesla";
+            r_text[8] = "'I loro idoli sono argento e oro, opera delle mani dell'uomo.' - Salmi 115:4";
+            r_text[9] = "'Ciò che viene misurato viene gestito.' - Peter Drucker.";
+            r_text[10] = "'In principio c'era la MACCHINA la sopravvivenza e l'organizzazione del pianeta dipendono dalla MACCHINA il futuro e il passato dipendono dalla MACCHINA... il passato? ma chi voleva la MACCHINA ?' - EMI [Automat (L'album di Romano Musumarra e Claudio Gizzi), 1978]";
+
+            var idx = Math.floor(11*Math.random())
+            text = r_text[idx];
+            i = 0;
+        }
+
+        function typeText() {
+            if (i < text.length) {
+                footer.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeText, Math.random() * 200);
+            }
+        }
+
+        document.getElementById("div1").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });
+
+        document.getElementById("div2").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });
+
+        document.getElementById("div3").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });
+
+        document.getElementById("div4").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });
+
+        typeText();
+    </script>
+
+    <script>
+      function openTab(tabName) {
+        var i, tabContent, tabLinks;
+        tabContent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+          tabContent[i].style.display = "none";
+        }
+        tabLinks = document.getElementsByClassName("tab");
+        for (i = 0; i < tabLinks.length; i++) {
+          tabLinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).style.display = "block";
+        event.currentTarget.classList.add("active");
+      }
+    </script>
+    <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /* Loop through a collection of all HTML elements: */
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /* Make an HTTP request using the attribute value as the file name: */
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /* Remove the attribute, and call this function once more: */
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /* Exit the function: */
+          return;
+        }
+      }
+    }
+    </script>
+    <script>
+    includeHTML();
+    </script>
+  </body>
+</html>
