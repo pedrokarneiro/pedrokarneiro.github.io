@@ -38,11 +38,11 @@
       <h2>Communication Projects</h2>
       <div w3-include-html="wprojects_history.html"></div>
     </div>
-    <div id="tab6" class="tab-content" style="display: none">
+    <!--<div id="tab6" class="tab-content" style="display: none">
       <!-- Education and Training -->
-      <h2>Education and Training</h2>
-      <div w3-include-html="wprojects_history.html"></div>
-    </div>
+      <!-- <h2>Education and Training</h2> -->
+      <!-- <div w3-include-html="education.html"></div> -->
+    <!-- </div> -->
     <footer id="typing-footer"></footer>
     <script>
         const footer = document.getElementById('typing-footer');
@@ -99,6 +99,18 @@
             footer.innerHTML = "";
             typeText();
         });
+
+        document.getElementById("div5").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });
+
+        /*document.getElementById("div6").addEventListener("click", function() {
+            initVars();
+            footer.innerHTML = "";
+            typeText();
+        });*/
 
         typeText();
     </script>
