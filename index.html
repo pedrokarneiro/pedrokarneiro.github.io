@@ -20,7 +20,7 @@
     <div id="div2" class="tab" onclick="openTab('tab2')">About</div>
     <!-- <div id="div3" class="tab" onclick="openTab('tab3')">Contact</div> -->
     <div id="div4" class="tab" onclick="openTab('tab4')">IT Projects</div>
-    <div id="div5" class="tab" onclick="openTab('tab5')">Communication Projects</div>
+    <!-- <div id="div5" class="tab" onclick="openTab('tab5')">Communication Projects</div>-->
     <div id="div6" class="tab" onclick="openTab('tab6')">Educational Background</div>
     <div id="tab1" class="tab-content active">
       <!-- Home -->
@@ -42,11 +42,11 @@
       <h2>IT Projects</h2>
       <div w3-include-html="projects_history.html"></div>
     </div>
-    <div id="tab5" class="tab-content" style="display: none">
-      <!-- History of Communication Projects -->
+<!--    <div id="tab5" class="tab-content" style="display: none">
+      -- History of Communication Projects --
       <h2>Communication Projects</h2>
       <div w3-include-html="wprojects_history.html"></div>
-    </div>
+    </div>-->
     <div id="tab6" class="tab-content" style="display: none">
       <!-- Educational Background -->
       <h2>Educational Background</h2>
@@ -104,12 +104,6 @@
         });
 
         document.getElementById("div4").addEventListener("click", function() {
-            initVars();
-            footer.innerHTML = "";
-            typeText();
-        });
-
-        document.getElementById("div5").addEventListener("click", function() {
             initVars();
             footer.innerHTML = "";
             typeText();
